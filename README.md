@@ -5,7 +5,9 @@ Article title: Speech sound categorization: The contribution of non-auditory and
 Authors: Basil C. Preisig, Lars Riecke, & Alexis Hervais-Adelman
 Article DOI: https://doi.org/10.1016/j.neuroimage.2022.119375
 Correspondance: basilpreisig@gmail.com
+
 Content information
+
 This collection contains all data and code to reproduce the analyses described in Preisig, Riecke, &
 Hervais-Adelman (2022). For privacy reasons, all native space anatomical scans are defaced. All steps
 that require the identifiable anatomical scan (fMRI preprocessing steps: (1) functional realignment and
@@ -21,7 +23,9 @@ firstlevel data (at the individual participant level) into participant subfolder
 analyses will be stored in the subfolder /analyses. In principle, one only needs to install all the relevant
 software (see dependencies) and to set the appropriate folderpaths in README_data_analysis_steps.m
 to run the analyses.
+
 Dependencies
+
 MATLAB
 • SPM12 (http://www.fil.ion.ucl.ac.uk/spm)
 • TDT – The decoding toolbox (https://sites.google.com/site/tdtdecodingtoolbox/)
